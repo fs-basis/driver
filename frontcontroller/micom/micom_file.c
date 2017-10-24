@@ -1212,7 +1212,7 @@ int micom_init_func(void)
 #if VFD_LENGTH < 16
 	micomWriteString(" T D T  ", strlen(" T D T  "));
 #else
-	micomWriteString(" Team Ducktales ", strlen(" Team Ducktales "));
+	micomWriteString("    Kathrein   ", strlen("    Kathrein   "));
 #endif
 	msleep(10);
 
