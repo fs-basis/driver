@@ -163,7 +163,7 @@ obj-y += frontcontroller/
 ifdef WLANDRIVER
 obj-y += wireless/
 endif
-obj-y += cpu_frequ/
+#obj-y += cpu_frequ/
 
 ifeq (,$(wildcard $(DRIVER_TOPDIR)/pti_np ))
 obj-y += pti/
