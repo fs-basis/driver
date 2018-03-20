@@ -134,9 +134,15 @@ endif
 ifdef VITAMIN_HD5000
 CCFLAGSY += -DVITAMIN_HD5000
 endif
+
 ifdef SAGEMCOM88
 CCFLAGSY += -DSAGEMCOM88
 endif
+
+ifdef PACE7241
+CCFLAGSY += -DPACE7241
+endif
+
 ifdef ARIVALINK200
 CCFLAGSY += -DARIVALINK200
 endif
@@ -349,6 +355,7 @@ endif
 
 ifdef PACE7241
 obj-y += cec/
+obj-y += smartcard/
 obj-y += fan_pace7241/
 endif
 
